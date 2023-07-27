@@ -111,7 +111,8 @@ main {
 }
 
 .apresentacao_imagem{
-    width: 32%;
+    width: 35%;
+    margin-top: -20%;
 }
 
 .desenvolvedor {
@@ -124,12 +125,22 @@ main {
     font-weight: 600;
 }
 
-.apresentacao__conteudo__texto a{
+.apresentacao_conteudo_texto a {
     text-decoration: none;
     color: var(--cor-terciaria);
 }
 
-@media (max-width: 1000px) {
+.apresentacao_conteudo_texto {
+    font-size: 1rem;
+    font-family: var(--fonte-paragrafo)
+}
+
+.apresentacao_links_curriculo {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+@media (max-width: 1200px) {
     .cabecalho {
         padding: 15%;
     }
