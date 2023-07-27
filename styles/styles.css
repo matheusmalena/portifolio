@@ -139,7 +139,7 @@ main {
     color: var(--cor-terciaria);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 390px) {
     .cabecalho {
         padding: 15%;
     }
