@@ -112,10 +112,9 @@ main {
 
 .apresentacao_imagem{
     width: 35%;
-    margin-top: -20%;
 }
 
-.desenvolvedor {
+.rodape {
     background-color: var(--cor-terciaria);
     color: black;
     padding: 24px;
